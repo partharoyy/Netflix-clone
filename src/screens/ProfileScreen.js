@@ -31,7 +31,7 @@ const ProfileScreen = () => {
               </h3>
               <button
                 onClick={() => auth.signOut()}
-                className="py-[6px] lg:py-[.3rem] lg:text-[16px] px-[8px] md:px-[10px] md:py-[12px] text-[.8rem] md:text-[1.3rem] mt-[5%] w-[92%] text-[#fff] bg-[#e50914] font-[600] border-none cursor-pointer"
+                className="py-[6px] lg:py-[.5rem] lg:text-[16px] px-[8px] md:px-[10px] md:py-[12px] text-[.8rem] md:text-[1.3rem] mt-[5%] w-[92%] text-[#fff] bg-[#e50914] font-[600] border-none cursor-pointer"
               >
                 Sign Out
               </button>
