@@ -24,7 +24,7 @@ const LoginScreen = () => {
         {!signIn && (
           <button
             onClick={() => setSignIn(true)}
-            className="rounded fixed right-[17px] top-[25px]  py-[3px] lg:font-extrathin px-[8px] bg-[#e50914] font-normal border-none text-[.8rem] md:text-[1.2rem] lg:px-[16px] lg:py-[4px] lg:text-[1rem] text-[#f3eded] cursor-pointer"
+            className="rounded fixed right-[17px] top-[30px]  py-[5px] lg:font-extrathin px-[10px] bg-[#e50914] font-normal border-none text-[1rem] md:text-[1.2rem] lg:px-[16px] lg:py-[4px] lg:text-[1rem] text-[#f3eded] cursor-pointer"
           >
             Sign In
           </button>
