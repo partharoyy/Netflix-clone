@@ -55,7 +55,7 @@ const LoginScreen = () => {
                 />
                 <button
                   onClick={() => setSignIn(true)}
-                  className="rounded-sm relative top-[12px] md:top-[.2px] py-[.6rem] md:py-[.7rem] pr-[1.7rem] pl-[1rem] text-[1rem] text-[#f3eded] bg-[#e50914] border-none font-thin cursor-pointer"
+                  className="rounded-sm relative top-[12px] md:top-[.2px] py-[.6rem] md:py-[.7rem] pr-[1.7rem] pl-[1rem] text-[1rem] text-[#f3eded] bg-[#e50914] border-none font-normal cursor-pointer"
                 >
                   Get Started
                   <svg
