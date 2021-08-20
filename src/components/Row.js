@@ -26,9 +26,9 @@ const Row = ({ title, fetchUrl, isLargeRow = false }) => {
             ((isLargeRow && movie.poster_path) ||
               (!isLargeRow && movie.backdrop_path)) && (
               <img
-                className={`max-h-[70px] md:max-h-[100px] lg:max-h-[150px] object-contain mr-[10px] w-[100%] transition transform hover:scale-105 duration-[450ms] ${
+                className={`max-h-[70px] md:max-h-[100px] lg:max-h-[250px] object-contain mr-[10px] w-[100%] transition transform hover:scale-105 duration-[450ms] ${
                   isLargeRow &&
-                  "max-h-[145px] md:max-h-[230px] lg:max-h-[350px] "
+                  "max-h-[145px] md:max-h-[230px] lg:max-h-[450px] "
                 }`}
                 key={movie.id}
                 src={`${base_url}${
