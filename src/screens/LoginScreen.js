@@ -24,7 +24,7 @@ const LoginScreen = () => {
         {!signIn && (
           <button
             onClick={() => setSignIn(true)}
-            className="rounded fixed right-[17px] top-[30px]  py-[5px] lg:font-extrathin px-[10px] bg-[#e50914] font-normal border-none text-[1rem] md:text-[1.2rem] lg:px-[16px] lg:py-[4px] lg:text-[1rem] text-[#f3eded] cursor-pointer"
+            className="rounded fixed right-[17px] top-[27px]  py-[5px] lg:font-extrathin px-[10px] bg-[#e50914] font-normal border-none text-[1rem] md:text-[1.2rem] lg:px-[16px] lg:py-[4px] lg:text-[1rem] text-[#f3eded] cursor-pointer"
           >
             Sign In
           </button>
@@ -39,10 +39,10 @@ const LoginScreen = () => {
             <h1 className="text-[1.7rem] md:text-[2.5rem] lg:text-[4rem] mb-[12px] font-medium px-[1.3rem] leading-tight">
               Unlimited movies, TV shows and more.
             </h1>
-            <h3 className="text-[1rem] md:text-[1.5rem] lg:text-[2rem] font-light mb-[12px]">
+            <h3 className="text-[1.3rem] md:text-[1.5rem] lg:text-[2rem] font-light mb-[12px]">
               Watch anywhere. Cancel anytime.
             </h3>
-            <h2 className="text-[1rem] lg:text-[1.4rem] md:text-[1.5rem] px-[3rem]  font-extralight">
+            <h2 className="text-[1.2rem] lg:text-[1.4rem] md:text-[1.5rem] px-[3rem]  font-extralight">
               Ready to watch? Enter your email to create or restart your
               membership.
             </h2>
@@ -51,7 +51,7 @@ const LoginScreen = () => {
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="text-[#000] text-[12px] md:text-[15px] rounded-sm px-[10px] py-[23px] outline-none h-[20px] w-[100%] border-none max-w-[600px]"
+                  className="text-[#000] text-[13px] md:text-[15px] rounded-sm px-[10px] py-[23px] outline-none h-[20px] w-[100%] border-none max-w-[600px]"
                 />
                 <button
                   onClick={() => setSignIn(true)}
