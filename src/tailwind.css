@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply cursor-pointer text-[#fff] outline-none border-none font-semibold border-r-[.2vw] pl-[.5rem] pr-[.5rem] mr-[.5rem] pt-[.5rem] bg-btn-color pb-[.5rem];
+}
+
+.hideScrollBar::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.signup-screen-input {
+  @apply outline-none h-[40px] mb-[14px] rounded border-none;
+}
