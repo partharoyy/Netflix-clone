@@ -45,13 +45,13 @@ const SignupScreen = () => {
           Sign In
         </h1>
         <input
-          className="signup-screen-input lg:text-[18px] md:text-[20px] py-[5px] px-[15px] lg:px-[13px] md:px-[20px] font-thin bg-[#3a3838]"
+          className="signup-screen-input lg:text-[18px] md:text-[20px] py-[5px] px-[15px] lg:px-[13px] md:px-[20px] font-normal bg-[#3a3838]"
           type="email"
           placeholder="Email"
           ref={emailRef}
         />
         <input
-          className="signup-screen-input lg:text-[18px] md:text-[20px] py-[5px] px-[15px] lg:px-[13px]  md:px-[20px] font-thin bg-[#3a3838]"
+          className="signup-screen-input lg:text-[18px] md:text-[20px] py-[5px] px-[15px] lg:px-[13px]  md:px-[20px] font-normal bg-[#3a3838]"
           type="password"
           placeholder="Password"
           ref={passwordRef}

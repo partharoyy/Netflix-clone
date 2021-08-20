@@ -17,7 +17,7 @@ const Row = ({ title, fetchUrl, isLargeRow = false }) => {
 
   return (
     <div className="text-[#fff] ml-[12px]">
-      <h2 className="flex text-[.8rem] md:text-[1.2rem] lg:text-[1.4rem]">
+      <h2 className="flex text-[1rem] md:text-[1.2rem] lg:text-[1.4rem]">
         {title}
       </h2>
       <div className="flex overflow-y-hidden overflow-x-scroll hideScrollBar p-[10px] md:p-[15px]">
@@ -26,9 +26,9 @@ const Row = ({ title, fetchUrl, isLargeRow = false }) => {
             ((isLargeRow && movie.poster_path) ||
               (!isLargeRow && movie.backdrop_path)) && (
               <img
-                className={`max-h-[50px] md:max-h-[100px] lg:max-h-[150px] object-contain mr-[10px] w-[100%] transition transform hover:scale-105 duration-[450ms] ${
+                className={`max-h-[70px] md:max-h-[100px] lg:max-h-[150px] object-contain mr-[10px] w-[100%] transition transform hover:scale-105 duration-[450ms] ${
                   isLargeRow &&
-                  "max-h-[110px] md:max-h-[230px] lg:max-h-[350px] "
+                  "max-h-[145px] md:max-h-[230px] lg:max-h-[350px] "
                 }`}
                 key={movie.id}
                 src={`${base_url}${

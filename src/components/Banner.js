@@ -34,14 +34,14 @@ const Banner = () => {
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
         <div>
-          <button className="text-[9px] lg:mt-[1.5rem] md:text-[17px] lg:text-[19px] lg:font-thin lg:px-[25px] lg:py-[5px] btn hover:text-[#000] hover:bg-[#e6e6e6] transition-all duration-200">
+          <button className="text-[11px] lg:mt-[1.5rem] md:text-[17px] lg:text-[19px] lg:font-thin lg:px-[25px] lg:py-[5px] btn hover:text-[#000] hover:bg-[#e6e6e6] transition-all duration-200">
             Play
           </button>
-          <button className="text-[9px] lg:mb-[1.2rem] md:text-[17px] lg:text-[19px] lg:font-thin lg:px-[25px] lg:py-[5px] btn hover:text-[#000] hover:bg-[#e6e6e6] transition-all duration-200">
+          <button className="text-[11px] lg:mb-[1.2rem] md:text-[17px] lg:text-[19px] lg:font-thin lg:px-[25px] lg:py-[5px] btn hover:text-[#000] hover:bg-[#e6e6e6] transition-all duration-200">
             My List
           </button>
         </div>
-        <h1 className="w-[45rem] md:w-[70rem] lg:mt-[1rem] lg:text-[1.5rem] lg:font-normal lg:max-w-[1300px] leading-[1.3] py-[1rem] pr-[2rem] text-[0.7rem] md:text-[1.1rem] max-w-[360px] md:max-w-[700px] h-[80px] text-left">
+        <h1 className="w-[45rem] md:w-[70rem] lg:mt-[1rem] lg:text-[1.5rem] lg:font-normal lg:max-w-[1300px] leading-[1.3] py-[1rem] pr-[2rem] text-[0.8rem] md:text-[1.1rem] max-w-[360px] md:max-w-[700px] h-[80px] text-left">
           {truncate(movie?.overview, 150)}
         </h1>
       </div>
