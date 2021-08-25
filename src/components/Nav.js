@@ -38,7 +38,7 @@ const Nav = () => {
           onClick={() => history.push("/profile")}
           src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
           alt="avatar"
-          className="fixed md:right-[20px] right-[25px] w-[25px] top-[1.5rem] md:w-[40px] md:top-[1.5rem] cursor-pointer"
+          className="fixed md:right-[20px] right-[15px] w-[25px] top-[1.5rem] md:w-[40px] md:top-[1.5rem] cursor-pointer"
         />
       </div>
     </div>
