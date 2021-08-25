@@ -8,7 +8,7 @@ import PlanScreen from "./PlanScreen";
 const ProfileScreen = () => {
   const user = useSelector(selectUser);
   return (
-    <div className="md:h-screen lg:h-screen text-[#fff]">
+    <div className="h-[100vh] text-[#fff]">
       <Nav />
       <div className="flex flex-col ml-auto mr-auto pt-[25%] lg:pt-[7%] max-w-[800px]">
         <h1 className="text-[25px] md:text-[35px] lg:text-[40px] font-[400] border-b-[1px] border-solid border-b-[#282c2d] mb-4 ml-[.8rem] md:ml-[1.7rem] text-left">
